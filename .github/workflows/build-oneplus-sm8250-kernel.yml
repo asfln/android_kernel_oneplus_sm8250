@@ -1,5 +1,6 @@
 name: Build OnePlus-Sm8250-Kernel
-on: [push, pull_request]
+on: 
+   workflow_dispatch:
 
 jobs:
   build:
